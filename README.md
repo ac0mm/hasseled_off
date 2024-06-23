@@ -16,6 +16,7 @@ Script to enumerate remote MIPS architecture IoT device via SSH, the script coll
 - paramiko
 - termcolor
 - busybox (https://www.busybox.net/downloads/binaries/1.16.1/)
+- binutils-mips-linux-gnu
 
 ## Installation
 
