@@ -59,7 +59,7 @@ python3 hassled_off.py -r 192.168.1.1 -p 22 -b /tmp/busybox -x js,lua
 
 ## Why I am Interested
 
-As part of CSC-844 I am reverse enineering a GL-AR750S travel router for potential vulnerabilities, and knowing that I am likely to do this again in the future I elected to build a tool, hasseled_off, to help perform some initial triage of the target device that can be used to help scope on good potential places to start enumerating. The primary assumption is that processes that are running and have exposed network sockets that have vulnerabilities will be more suscptible to remote attacks, which is why the process list and nestat are pulled. A big gap right now is looking at any kernel loaded kernel modules associated with any RF communications.
+As part of CSC-844 I am reverse engineering a GL-AR750S travel router for potential vulnerabilities, and knowing that I am likely to do this again in the future I elected to build a tool, hasseled_off, to help perform some initial triage of the target device that can be used to help scope on good potential places to start enumerating. The primary assumption is that processes that are running and have exposed network sockets that have vulnerabilities will be more suscptible to remote attacks, which is why the process list and nestat are pulled. A big gap right now is looking at any kernel loaded kernel modules associated with any RF communications.
 
 # Areas of Improvement
 
